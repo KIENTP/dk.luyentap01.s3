@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Nhap vao diem 15': "));
+    var b = parseInt(prompt("Nhap vao diem mieng: "));
+    var c = parseInt(prompt("Nhap vao diem giua ky: "));
+    var d = parseInt(prompt("Nhap vao diem cuoi ky: "));
+    var x = (a + b + c * 2 + d * 3) / 7
+    if (x >= 8) {
+        alert("hoc sinh gioi");
+    } else {
+        if (x >= 6.5) {
+            alert("hoc sinh kha");
+        }
+        else {
+            if (x >= 5) {
+                alert("hoc sinh trung binh");
+            } else {
+                alert("hoc sinh yeu");
+            }
+        }
+    }
+</script>
+</body>
+</html>

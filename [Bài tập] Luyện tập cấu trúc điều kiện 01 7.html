@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Nhap vao thoi gian du dung: "));
+    var b;
+    var i;
+    if (a >= 200) {
+        b = 2000;
+    } else {
+        if (a >= 150) {
+            b = 1700;
+        } else {
+            if (a >= 100) {
+                b = 1200
+            } else {
+                if (a >= 50) {
+                    b = 500
+                } else {
+                    b = 200
+                }
+            }
+        }
+    }
+    i = a * b;
+    alert("So tien ban can tra la: " + i);
+</script>
+</body>
+</html>

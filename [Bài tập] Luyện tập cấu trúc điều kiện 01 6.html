@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Nhap vao doanh so ban hang: "));
+    var b;
+    var i;
+    if (a >= 1000) {
+        b = 6 / 100
+    } else {
+        if (a >= 500) {
+            b = 3 / 100
+        } else {
+            b = 2 / 100
+        }
+    }
+    i = a * b;
+    alert("so tien hoa hong nhan duoc la: " + i);
+</script>
+</body>
+</html>
